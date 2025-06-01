@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.bulb{
+    /* background-color: yellow; */
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+    border: 3.5px solid black;
+    margin: 5%;
+}
+
+button{
+    font-size: 40px;
+    margin-left: 11%;
+}
