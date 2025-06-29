@@ -41,3 +41,21 @@
 // console.log(clock.year);
 // clock.year = 1985;
 // console.log(clock.year);
+
+//? object inside object
+var obj = {
+    name: "mayur",
+    social: {
+        facebook: {
+            first: "soni",
+            second: "brothers"
+        }
+    }
+}
+console.log(obj.social.facebook)
+
+const {second} = obj.social.facebook; //! automatically access the second. we only have to give the path
+console.log(second)
+
+const {name} = obj;
+console.log(name)
