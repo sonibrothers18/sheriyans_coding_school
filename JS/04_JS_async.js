@@ -8,6 +8,7 @@
 //! facebook se photo laao aur jab photo aajaaye show kar dena
 
 //! Sync commands directly goes to MS(main stack) and Async first goes to SS(side stack) and after the completion goes to MS
+//! At first, all MS commands will run and than SS commands starts shifting to the MS
 
 //! JS is Sync
 
